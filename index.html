@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#294b3b">
+<meta name="description" content="Ghé Đà Lạt – cẩm nang khách sạn và homestay giữa thành phố ngàn hoa.">
+<title>Ghé Đà Lạt — Stay & Wander</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#294b3b;--moss:#71866a;--sage:#dfe8dc;--cream:#f7f6f0;--paper:#fffefa;--wood:#9a7558;--ink:#25342c;--muted:#778078;--line:#e7e8df;--shadow:0 18px 50px rgba(35,61,45,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.serif,h1,h2,h3{font-family:'Playfair Display',Georgia,serif}.topbar{height:38px;background:var(--forest);color:#edf1e9;text-align:center;font-size:12px;letter-spacing:.08em;padding:8px 12px}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 6.5%;background:rgba(255,254,250,.94);position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.brand{font-family:'Playfair Display',serif;font-size:26px;color:var(--forest);font-weight:700;letter-spacing:-.04em}.brand span{color:var(--wood)}.navlinks{display:flex;gap:30px;font-size:13px;font-weight:600;color:#536257}.navlinks a:hover{color:var(--wood)}.nav-cta,.btn{border:0;border-radius:999px;padding:12px 21px;background:var(--forest);color:white;font-weight:700;font-size:13px;transition:.2s}.nav-cta:hover,.btn:hover{background:#41654f;transform:translateY(-2px)}.hero{min-height:590px;position:relative;display:flex;align-items:center;overflow:hidden;background:linear-gradient(90deg,rgba(20,43,32,.72),rgba(20,43,32,.12)),url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=88') center 48%/cover;color:white}.hero:after{content:"";position:absolute;inset:auto 0 0;height:130px;background:linear-gradient(transparent,var(--cream))}.hero-inner{position:relative;z-index:1;max-width:720px;margin-left:9%;padding:70px 24px 100px}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:#d8e4d1}.hero h1{font-size:clamp(48px,7vw,84px);line-height:1.04;letter-spacing:-.045em;margin:20px 0}.hero p{font-size:16px;max-width:480px;color:#edf1e9}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn-light{background:#f7f6f0;color:var(--forest)}.btn-outline{background:transparent;border:1px solid rgba(255,255,255,.7)}.hero-note{position:absolute;right:7%;bottom:90px;z-index:2;font-family:'Playfair Display',serif;font-style:italic;font-size:17px;color:#fff}.section{padding:82px 7%}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:30px}.kicker{color:var(--wood);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.section h2{font-size:clamp(32px,4vw,46px);line-height:1.15;margin:9px 0;color:var(--forest)}.section-intro{color:var(--muted);max-width:520px;font-size:14px}.feature-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.feature{min-height:330px;border-radius:18px;overflow:hidden;position:relative;color:white;background-size:cover;background-position:center;box-shadow:var(--shadow)}.feature:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,37,27,.75),transparent 70%)}.feature-copy{position:absolute;z-index:1;bottom:24px;left:28px;right:25px}.feature-copy h3{font-size:29px;margin:5px 0}.feature-copy p{font-size:13px;margin:0;color:#e9eee7}.feature-stack{display:grid;gap:20px}.feature.small{min-height:155px}.feature.small .feature-copy h3{font-size:23px}.toolbar{background:var(--paper);border:1px solid var(--line);padding:18px;border-radius:16px;display:grid;grid-template-columns:1.5fr 1fr 1fr auto;gap:12px;align-items:end;margin:28px 0}.field label{display:block;font-size:11px;font-weight:700;color:#69766b;margin:0 0 7px 3px}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);background:#fff;border-radius:10px;padding:12px 13px;color:var(--ink);outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--moss);box-shadow:0 0 0 3px #dfe8dc}.results-line{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px;margin:20px 2px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.stay-card{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.25s;box-shadow:0 5px 18px rgba(30,50,38,.04)}.stay-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.card-image{height:220px;position:relative;overflow:hidden}.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.stay-card:hover img{transform:scale(1.05)}.tag{position:absolute;top:14px;left:14px;background:rgba(255,254,250,.94);color:var(--forest);font-size:10px;font-weight:700;padding:7px 11px;border-radius:99px}.heart{position:absolute;right:14px;top:13px;border:0;border-radius:50%;width:34px;height:34px;background:rgba(255,254,250,.92);font-size:17px;color:var(--wood)}.card-body{padding:19px}.card-location{font-size:11px;color:var(--moss);font-weight:700;letter-spacing:.04em;display:flex;align-items:center;justify-content:space-between;gap:8px}.map-link{font-size:10px;color:var(--wood);font-weight:700;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}.card-body h3{font-size:23px;margin:5px 0 7px;color:var(--forest)}.card-desc{font-size:12px;color:var(--muted);min-height:38px;margin:0 0 13px}.amenities{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px}.amenities span{background:#f0f2eb;color:#667464;padding:5px 8px;border-radius:6px;font-size:10px}.card-foot{border-top:1px solid var(--line);padding-top:13px;display:flex;justify-content:space-between;align-items:center}.price{font-size:19px;color:var(--forest);font-weight:700}.price small{font-size:10px;color:var(--muted);font-weight:400}.detail-btn{border:1px solid #b8c5b5;background:transparent;color:var(--forest);border-radius:99px;padding:8px 13px;font-size:11px;font-weight:700}.detail-btn:hover{background:var(--forest);color:white}.empty{grid-column:1/-1;text-align:center;padding:55px 20px;color:var(--muted);background:var(--paper);border-radius:16px}.story{background:#e9eee5;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.story-image{height:430px;border-radius:180px 180px 18px 18px;overflow:hidden;box-shadow:var(--shadow)}.story-image img{width:100%;height:100%;object-fit:cover}.story-copy p{color:#66736a;font-size:14px}.story-points{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}.story-point{border-top:1px solid #cbd5c8;padding-top:12px}.story-point b{display:block;color:var(--forest);font-family:'Playfair Display',serif;font-size:21px}.story-point span{font-size:11px;color:var(--muted)}.booking{background:var(--forest);color:white;position:relative;overflow:hidden}.booking:before{content:"✿";position:absolute;right:7%;top:0;font-size:220px;color:rgba(255,255,255,.045)}.booking .section-head h2{color:white}.booking .kicker{color:#c9d8c5}.booking .section-intro{color:#d2ddd2}.booking-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start;position:relative}.contact-info{padding:22px 0}.contact-info h3{font-size:27px}.contact-info p{color:#d2ddd2;font-size:13px}.contact-row{display:flex;gap:12px;margin:22px 0;font-size:13px;align-items:center}.contact-icon{width:38px;height:38px;border-radius:50%;background:#45644e;display:grid;place-items:center}.booking-form{background:var(--paper);color:var(--ink);padding:27px;border-radius:18px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.booking-form .full{grid-column:1/-1}.booking-form .field label{color:#657367}.booking-form textarea{resize:vertical;min-height:80px}.booking-form .btn{width:100%;padding:15px}.form-message{grid-column:1/-1;font-size:12px;color:var(--forest);background:#e9f0e5;padding:12px;border-radius:9px;display:none}.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.tip{padding:25px;background:var(--paper);border:1px solid var(--line);border-radius:14px}.tip .num{font-family:'Playfair Display';font-size:30px;color:#a5b49d}.tip h3{font-size:20px;color:var(--forest);margin:5px 0}.tip p{font-size:12px;color:var(--muted);margin:0}footer{background:#203b2e;color:#dbe4d8;padding:38px 7%;display:flex;justify-content:space-between;gap:25px;align-items:center;font-size:12px}footer .brand{color:white}footer p{max-width:380px;color:#b9c8b9}.modal{position:fixed;inset:0;background:rgba(15,28,20,.65);z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal-box{background:var(--paper);max-width:650px;width:100%;max-height:90vh;overflow:auto;border-radius:18px;position:relative}.modal-box img{width:100%;height:260px;object-fit:cover}.modal-content{padding:25px}.modal-content h2{font-size:30px;color:var(--forest);margin:4px 0}.close{position:absolute;right:14px;top:14px;border:0;border-radius:50%;width:36px;height:36px;background:white;font-size:20px}.fineprint{font-size:10px;color:var(--muted);margin-top:14px}.mobile-menu{display:none}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr 1fr}.feature-grid{grid-template-columns:1fr}.feature-stack{grid-template-columns:1fr 1fr}.story{gap:30px}.booking-layout{grid-template-columns:1fr;gap:10px}}
+@media(max-width:620px){.nav{height:66px;padding:0 5%}.navlinks{display:none}.nav-cta{padding:10px 14px;font-size:11px}.brand{font-size:23px}.hero{min-height:570px;background-position:58% center}.hero-inner{margin:0;padding:55px 7% 105px}.hero-note{display:none}.section{padding:60px 5%}.section-head{display:block}.section-intro{margin-top:10px}.feature-stack{grid-template-columns:1fr}.feature{min-height:290px}.feature.small{min-height:190px}.toolbar{grid-template-columns:1fr 1fr;padding:14px}.toolbar .field:first-child{grid-column:1/-1}.toolbar .btn{grid-column:1/-1}.cards{grid-template-columns:1fr}.card-image{height:235px}.story{grid-template-columns:1fr}.story-image{height:330px;max-width:360px;margin:auto;width:100%}.tips{grid-template-columns:1fr}.booking-form{grid-template-columns:1fr;padding:19px}.booking-form .full{grid-column:auto}footer{display:block;text-align:center}footer p{margin:12px auto}.results-line{align-items:flex-start;gap:10px;flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="topbar">ĐÀ LẠT — CHẠM VÀO MỘT CHÚT BÌNH YÊN · 1.500M TRÊN MỰC NƯỚC BIỂN</div>
+<nav class="nav">
+  <a class="brand" href="#">Ghé <span>Đà Lạt.</span></a>
+  <div class="navlinks"><a href="#goi-y">Gợi ý lưu trú</a><a href="#kham-pha">Khám phá</a><a href="#meo">Cẩm nang</a><a href="#dat-phong">Đặt phòng</a></div>
+  <a class="nav-cta" href="#dat-phong">Lên lịch nghỉ dưỡng ↗</a>
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">A little escape to the highlands</div>
+    <h1>Trốn lên Đà Lạt,<br><em>thương một ngày xanh.</em></h1>
+    <p>Nơi sương ghé hiên nhà, rừng thông thì thầm và mỗi góc nhỏ đều dịu dàng như một trang nhật ký.</p>
+    <div class="hero-actions"><a class="btn btn-light" href="#goi-y">Tìm chỗ dừng chân</a><a class="btn btn-outline" href="#kham-pha">Khám phá Đà Lạt</a></div>
+  </div>
+  <div class="hero-note">“Đi để thấy lòng mình dịu lại.”</div>
+</header>
+
+<section class="section" id="kham-pha">
+  <div class="section-head"><div><div class="kicker">Little places, lovely moments</div><h2>Đà Lạt có những góc<br>thật đáng để thương.</h2></div><p class="section-intro">Từ căn villa nép mình bên rừng thông đến căn homestay nhỏ ngập nắng — chọn một nơi thật hợp với chuyến đi của bạn.</p></div>
+  <div class="feature-grid">
+    <a class="feature" href="#goi-y" style="background-image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85')">
+      <div class="feature-copy"><div class="eyebrow">01 / Stay in the pines</div><h3>Thức dậy giữa rừng thông</h3><p>Không gian xanh mát dành cho những ngày muốn sống chậm.</p></div>
+    </a>
+    <div class="feature-stack">
+      <a class="feature small" href="#goi-y" style="background-image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=85')"><div class="feature-copy"><div class="eyebrow">02 / Slow mornings</div><h3>Một sớm đầy sương</h3></div></a>
+      <a class="feature small" href="#goi-y" style="background-image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=85')"><div class="feature-copy"><div class="eyebrow">03 / Cozy corners</div><h3>Ấm áp như ở nhà</h3></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="goi-y" style="padding-top:25px">
+  <div class="section-head"><div><div class="kicker">Find your little hideaway</div><h2>Nơi mình sẽ ở lại.</h2></div><p class="section-intro">Một vài gợi ý lưu trú để bạn bắt đầu hành trình. Giá tham khảo mỗi đêm, có thể thay đổi theo ngày và loại phòng.</p></div>
+  <div class="toolbar">
+    <div class="field"><label for="search">TÌM THEO TÊN / KHU VỰC</label><input id="search" type="search" placeholder="Ví dụ: hồ Tuyền Lâm, trung tâm..."></div>
+    <div class="field"><label for="kind">LOẠI HÌNH</label><select id="kind"><option value="all">Tất cả</option><option value="Khách sạn">Khách sạn</option><option value="Homestay">Homestay</option><option value="Resort">Resort</option></select></div>
+    <div class="field"><label for="budget">MỨC GIÁ / ĐÊM</label><select id="budget"><option value="all">Mọi mức giá</option><option value="under1">Dưới 1 triệu</option><option value="1to2">1 – 2 triệu</option><option value="over2">Trên 2 triệu</option></select></div>
+    <button class="btn" onclick="filterStays()">Tìm chỗ ở ↗</button>
+  </div>
+  <div class="results-line"><span id="resultCount">Đang hiển thị 6 gợi ý</span><span>♡ Lưu lại nơi bạn thích</span></div>
+  <div class="cards" id="stayCards"></div>
+  <p class="fineprint">* Đây là website giới thiệu/demo. Giá, địa chỉ, tiện nghi và thông tin liên hệ cần được xác nhận trực tiếp với cơ sở lưu trú trước khi thanh toán.</p>
+</section>
+
+<section class="section story">
+  <div class="story-image"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Cảnh thiên nhiên xanh mát"></div>
+  <div class="story-copy"><div class="kicker">A slower kind of beautiful</div><h2>Không chỉ là một chuyến đi,<br>mà là một khoảng thở.</h2><p>Đà Lạt đẹp theo cách rất riêng: chút lạnh đầu ngày, mùi thông sau cơn mưa, ly cà phê ấm bên ô cửa và những con dốc quanh co. Chọn một nơi lưu trú vừa ý để tận hưởng thành phố theo nhịp của riêng mình.</p><p>Đừng quên dành thời gian khám phá chợ Đà Lạt, hồ Xuân Hương, những đồi thông và các quán cà phê nhỏ.</p><div class="story-points"><div class="story-point"><b>4 mùa</b><span>Trong một ngày</span></div><div class="story-point"><b>1.500m</b><span>Độ cao cao nguyên</span></div></div></div>
+</section>
+
+<section class="section" id="meo">
+  <div class="section-head"><div><div class="kicker">A tiny travel note</div><h2>Một chút chuẩn bị,<br>một chuyến đi thảnh thơi.</h2></div></div>
+  <div class="tips">
+    <article class="tip"><div class="num">01</div><h3>Chọn đúng mùa</h3><p>Thời tiết Đà Lạt thay đổi nhanh. Hãy xem dự báo gần ngày đi và chuẩn bị áo khoác mỏng, ô hoặc áo mưa.</p></article>
+    <article class="tip"><div class="num">02</div><h3>Đặt phòng sớm</h3><p>Cuối tuần và dịp lễ thường đông. Xác nhận giá cuối cùng, phụ thu, giờ nhận/trả phòng và chính sách hủy.</p></article>
+    <article class="tip"><div class="num">03</div><h3>Kiểm tra vị trí</h3><p>Hỏi rõ đường vào, chỗ đậu xe và khoảng cách đến trung tâm. Một số nơi ở đồi dốc hoặc xa khu ăn uống.</p></article>
+  </div>
+</section>
+
+<section class="section booking" id="dat-phong">
+  <div class="section-head"><div><div class="kicker">Make it a date with Đà Lạt</div><h2>Chuyến đi bắt đầu<br>từ một lời hẹn.</h2></div><p class="section-intro">Gửi thông tin dự kiến để lưu lại nhu cầu đặt phòng. Đây là biểu mẫu minh họa, chưa gửi dữ liệu đến khách sạn.</p></div>
+  <div class="booking-layout">
+    <div class="contact-info"><h3>Để Đà Lạt đón bạn nhé.</h3><p>Hãy liên hệ trực tiếp với nơi lưu trú để kiểm tra phòng trống và nhận báo giá chính xác.</p>
+      <div class="contact-row"><span class="contact-icon">✉</span><span><b>Email hỗ trợ mẫu</b><br>hello@ghedalat.example</span></div>
+      <div class="contact-row"><span class="contact-icon">⌖</span><span><b>Điểm đến</b><br>Thành phố Đà Lạt, Lâm Đồng</span></div>
+      <div class="contact-row"><span class="contact-icon">♡</span><span><b>Mẹo nhỏ</b><br>Không chuyển khoản khi chưa xác minh cơ sở lưu trú.</span></div>
+    </div>
+    <form class="booking-form" id="bookingForm">
+      <div class="field"><label for="guest">HỌ VÀ TÊN</label><input id="guest" required placeholder="Tên của bạn"></div>
+      <div class="field"><label for="phone">SỐ ĐIỆN THOẠI</label><input id="phone" required type="tel" placeholder="09xx xxx xxx"></div>
+      <div class="field"><label for="checkin">NGÀY NHẬN PHÒNG</label><input id="checkin" type="date" required></div>
+      <div class="field"><label for="checkout">NGÀY TRẢ PHÒNG</label><input id="checkout" type="date" required></div>
+      <div class="field"><label for="guests">SỐ KHÁCH</label><select id="guests"><option>1 người</option><option selected>2 người</option><option>3 người</option><option>4 người</option><option>5+ người</option></select></div>
+      <div class="field"><label for="property">NƠI MUỐN ĐẶT</label><select id="property"><option>Chưa chọn</option><option>Ana Mandara Villas Dalat</option><option>Dalat Edensee Lake Resort & Spa</option><option>Terracotta Hotel & Resort</option><option>The Kupid Homestay</option><option>Legume Guest House</option><option>Là Nhà Homestay</option></select></div>
+      <div class="field full"><label for="note">LỜI NHẮN / YÊU CẦU THÊM</label><textarea id="note" placeholder="Bạn có mong muốn đặc biệt nào không?"></textarea></div>
+      <div class="full"><button class="btn" type="submit">Gửi thông tin đặt phòng ↗</button></div>
+      <div class="form-message" id="formMessage" role="status"></div>
+    </form>
+  </div>
+</section>
+<footer><div><a class="brand" href="#">Ghé <span>Đà Lạt.</span></a><p>Một góc nhỏ dành cho những tâm hồn thích đi trốn, thích màu xanh và những ngày thật dịu.</p></div><div>© 2026 Ghé Đà Lạt · Made with a little love in the highlands.</div></footer>
+
+<div class="modal" id="detailModal" role="dialog" aria-modal="true" aria-label="Chi tiết nơi lưu trú" onclick="if(event.target===this)closeModal()"><div class="modal-box"><button class="close" onclick="closeModal()" aria-label="Đóng">×</button><img id="modalImage" src="" alt=""><div class="modal-content"><div class="kicker" id="modalKind"></div><h2 id="modalName"></h2><p id="modalDescription"></p><p><b>Địa chỉ:</b> <span id="modalAddress"></span></p><p><a class="btn map-open" id="modalMap" href="#" target="_blank" rel="noopener">Mở Google Maps ↗</a></p><p><b>Tiện nghi:</b> <span id="modalAmenities"></span></p><p><b>Dịch vụ:</b> <span id="modalServices"></span></p><p><b>Giá tham khảo:</b> <span id="modalPrice"></span></p><a class="btn" href="#dat-phong" onclick="closeModal()">Gửi yêu cầu đặt phòng ↗</a><p class="fineprint">Nút Google Maps mở kết quả tìm kiếm theo tên và địa chỉ cơ sở. Vui lòng kiểm tra đúng địa điểm và liên hệ nơi lưu trú trước khi đến hoặc đặt phòng.</p></div></div></div>
+
+<script>
+const stays=[
+{id:1,name:'Ana Mandara Villas Dalat',kind:'Resort',area:'Lê Lai · gần trung tâm',price:3200000,priceText:'3.200.000đ',address:'Số 10 đường Lê Lai, Phường Cam Ly - Đà Lạt, Lâm Đồng',desc:'Không gian villa phong cách Pháp giữa khu vườn xanh và đồi thông.',amenities:['Villa riêng','Nhà hàng','Hồ bơi'],services:'Nhà hàng, spa và dịch vụ nghỉ dưỡng (xác nhận theo gói phòng).',img:'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=900&q=85'},
+{id:2,name:'Dalat Edensee Lake Resort & Spa',kind:'Resort',area:'Hồ Tuyền Lâm',price:2500000,priceText:'2.500.000đ',address:'Khu chức năng VII.2, hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt, Lâm Đồng',desc:'Khu nghỉ dưỡng bên hồ, phù hợp chuyến đi tìm sự yên tĩnh.',amenities:['View hồ','Nhà hàng','Spa'],services:'Ẩm thực, spa và hoạt động nghỉ dưỡng tùy thời điểm.',img:'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=85'},
+{id:3,name:'Terracotta Hotel & Resort',kind:'Resort',area:'Hồ Tuyền Lâm',price:1800000,priceText:'1.800.000đ',address:'Phân khu chức năng 7.9, KDL hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt, Lâm Đồng',desc:'Khuôn viên rộng, nhiều mảng xanh và không khí trong lành.',amenities:['Nhà hàng','Sân vườn','Phòng gym'],services:'Nhà hàng, hội nghị và tiện ích nghỉ dưỡng theo tình trạng hoạt động.',img:'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=85'},
+{id:4,name:'The Kupid Homestay',kind:'Homestay',area:'Đống Đa · view đồi',price:850000,priceText:'850.000đ',address:'47 đường Đặng Thái Thân, Phường Xuân Hương - Đà Lạt, Lâm Đồng',desc:'Góc nghỉ nhỏ xinh, hợp với những buổi sáng ngắm đồi và săn mây.',amenities:['View đồi','Khu sinh hoạt','Sân vườn'],services:'Hỗ trợ nhận phòng và tư vấn tham quan theo chính sách homestay.',img:'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85'},
+{id:5,name:'Legume Guest House',kind:'Homestay',area:'Bạch Đằng · yên tĩnh',price:550000,priceText:'550.000đ',address:'39A đường Bạch Đằng, Phường Lang Biang - Đà Lạt, Lâm Đồng',desc:'Không gian lưu trú mộc mạc, nhiều cây xanh và cảm giác gần gũi.',amenities:['Bếp chung','Sân vườn','Wi-Fi'],services:'Không gian sinh hoạt chung; dịch vụ cụ thể tùy hạng phòng.',img:'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85'},
+{id:6,name:'Là Nhà Homestay',kind:'Homestay',area:'Hoàng Diệu · gần trung tâm',price:650000,priceText:'650.000đ',address:'Hẻm 2 đường Ngô Thì Sỹ, Phường Xuân Hương - Đà Lạt, Lâm Đồng',desc:'Phong cách vintage, góc vườn nhỏ và không gian thân thiện.',amenities:['Vườn nhỏ','Bếp chung','Góc cà phê'],services:'Khu sinh hoạt chung và hỗ trợ khách lưu trú theo quy định.',img:'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85'}
+];
+const money=n=>n.toLocaleString('vi-VN')+'đ';
+const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s.name+' '+s.address+' Đà Lạt');
+function render(list){
+ const root=document.getElementById('stayCards');root.innerHTML='';
+ document.getElementById('resultCount').textContent=`Đang hiển thị ${list.length} gợi ý`;
+ if(!list.length){root.innerHTML='<div class="empty">Chưa tìm thấy nơi phù hợp. Thử đổi từ khóa hoặc mức giá nhé.</div>';return}
+ list.forEach(s=>{const el=document.createElement('article');el.className='stay-card';el.innerHTML=`
+ <div class="card-image"><img src="${s.img}" alt="${s.name}" loading="lazy"><span class="tag">${s.kind}</span><button class="heart" aria-label="Lưu ${s.name}" onclick="this.textContent=this.textContent==='♡'?'♥':'♡'">♡</button></div>
+ <div class="card-body"><div class="card-location"><span>⌖ ${s.area}</span><a class="map-link" href="${mapUrl(s)}" target="_blank" rel="noopener">Xem bản đồ ↗</a></div><h3>${s.name}</h3><p class="card-desc">${s.desc}</p><div class="amenities">${s.amenities.map(a=>`<span>${a}</span>`).join('')}</div><div class="card-foot"><div class="price">${s.priceText}<small> / đêm · từ</small></div><button class="detail-btn" onclick="showDetail(${s.id})">Xem chi tiết ↗</button></div></div>`;
+ root.appendChild(el)});
+}
+function filterStays(){
+ const q=document.getElementById('search').value.toLowerCase().trim(),kind=document.getElementById('kind').value,b=document.getElementById('budget').value;
+ const list=stays.filter(s=>(!q||(s.name+' '+s.area+' '+s.desc).toLowerCase().includes(q))&&(kind==='all'||s.kind===kind)&&(b==='all'||(b==='under1'&&s.price<1000000)||(b==='1to2'&&s.price>=1000000&&s.price<=2000000)||(b==='over2'&&s.price>2000000)));
+ render(list);
+}
+['search','kind','budget'].forEach(id=>document.getElementById(id).addEventListener(id==='search'?'input':'change',filterStays));
+function showDetail(id){
+ const s=stays.find(x=>x.id===id);if(!s)return;
+ document.getElementById('modalImage').src=s.img;document.getElementById('modalImage').alt=s.name;
+ document.getElementById('modalKind').textContent=s.kind+' · '+s.area;document.getElementById('modalName').textContent=s.name;
+ document.getElementById('modalDescription').textContent=s.desc;document.getElementById('modalAddress').textContent=s.address;
+ document.getElementById('modalMap').href=mapUrl(s);
+ document.getElementById('modalAmenities').textContent=s.amenities.join(', ');document.getElementById('modalServices').textContent=s.services;
+ document.getElementById('modalPrice').textContent=s.priceText+' / đêm (tham khảo)';
+ document.getElementById('property').value=s.name;document.getElementById('detailModal').classList.add('open');
+}
+function closeModal(){document.getElementById('detailModal').classList.remove('open')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+const today=new Date();const localDate=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+document.getElementById('checkin').min=localDate;document.getElementById('checkout').min=localDate;
+document.getElementById('checkin').addEventListener('change',e=>{document.getElementById('checkout').min=e.target.value;if(document.getElementById('checkout').value&&document.getElementById('checkout').value<=e.target.value)document.getElementById('checkout').value=''});
+document.getElementById('bookingForm').addEventListener('submit',e=>{
+ e.preventDefault();const a=document.getElementById('checkin').value,b=document.getElementById('checkout').value;
+ const msg=document.getElementById('formMessage');if(b<=a){msg.style.display='block';msg.textContent='Ngày trả phòng cần sau ngày nhận phòng nhé.';return}
+ msg.style.display='block';msg.textContent='Đã ghi nhận thông tin trên trang demo! Biểu mẫu chưa gửi dữ liệu đi. Bạn hãy liên hệ trực tiếp cơ sở lưu trú để xác nhận phòng và hoàn tất đặt chỗ.';
+});
+render(stays);
+</script>
+</body>
+</html>
